@@ -375,3 +375,18 @@ article.wrapper {
 .icon > .label {
   display: none;
 }
+
+@media (max-width: 768px) {
+  #banner h1 {
+    font-size: 2rem;
+  }
+
+  .flex {
+    flex-flow: column;
+  }
+
+  #three article {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
